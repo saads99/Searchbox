@@ -118,7 +118,7 @@ const App = () => {
                 />
             </div>
 
-            {/* Articles Section */}
+            
             {filteredArticles.length > 0 ? (
                 filteredArticles.map((article, index) => (
                     <div key={index} style={{ marginBottom: '20px' }}>
